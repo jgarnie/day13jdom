@@ -1,0 +1,24 @@
+.itmBought{
+    background-color: yellow;
+    padding: 20px;
+}
+.itm2{
+    background-color: red;
+}
+
+.bulb{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('bulb-off.png');
+    background-repeat: no-repeat;
+}
+.bulbon{
+    background-image: url('bulb-on.png') ;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+.bulboff{
+    background-image: url('bulb-off.png') ;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
